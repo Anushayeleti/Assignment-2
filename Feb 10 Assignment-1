@@ -1,0 +1,25 @@
+sno=int(input("enter student no:"))
+sname=intput("enter student name:")
+sgroup=intput("enter student group:")
+s1=int(input("maths marks:"))
+s2=int(input("physics marks:"))
+s3=int(input("computer marks:"))
+s4=int(input("telugu marks:"))
+s5=int(input("english marks:"))
+s6=int(input("crt marks:"))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+   print("pass")
+else:
+   print("fail")
+   
+output:enter student no:42
+       enter student name:Y.Anusha
+       enter student group:MPCS
+       maths marks:47
+       physics marks:46
+       computer marks:50
+       telugu marks:42
+       english marks:48
+       crt marks:41
+       pass
+       
